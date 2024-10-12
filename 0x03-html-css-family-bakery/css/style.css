@@ -1,0 +1,393 @@
+body{
+  font-family: "Alegreya", serif;
+
+    margin: 0;
+}
+.overlay{
+    background-color: rgba(0,0,0,.3);
+    height: 100%;
+}
+
+h2,h3{
+    font-size: 32px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    color: #303030;
+    line-height: 1.38em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 22px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    line-height: 1.38em
+
+}
+p,span{
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.86em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Section Home */
+.home-page{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    
+}
+/* Home - navbar */
+.navbar{
+    /* background-color: aquamarine; */
+    width: 65%;
+    margin: auto;
+    vertical-align: middle;
+    padding: 0 16px;
+    padding-top: 15px;
+    
+
+}
+.navbar .logo{
+    /* background-color: tomato; */
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+    width: 70%;
+}
+.nav-hyperlinks{
+    text-align: right;
+    /* background-color: tomato; */
+    width: 50%;
+    margin-left: 350px;
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+.nav-hyperlinks ul{
+    list-style-type: none;
+
+}
+.nav-hyperlinks ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.nav-hyperlinks ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+/* Home - Content */
+.content{
+    padding: 40px;
+    color: white;
+    text-align: center;
+    /* background-color: tomato; */
+    width: 58%;
+    margin: auto;
+    margin-top: 150px;
+
+}
+.content .welcome{
+    font-family: "Alegreya Sans";
+    color: white;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.content .main-heading{
+    font-size: 76px;
+    font-weight: 400;
+    margin: 0 0 5;
+}
+
+.content p{
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    color: white;
+
+}
+.buttons{
+    margin-top: 50px;
+
+}
+.content .buttons a{
+    text-decoration: none;
+    color: white;
+}
+
+.content .button-1{
+    font-family: "Alegreya Sans";
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+}
+
+.content .button-2{
+    font-family: "Alegreya Sans";
+    background-color: transparent;
+    padding: 15px 28px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.who-we-are{
+    /* background-color: tomato; */
+    margin-top: 90px;
+}
+
+.container{
+    /* background-color: tomato; */
+
+    overflow: hidden;
+    margin: 0 300px;
+    padding: 0 16px;
+    /* text-align: center; */
+    width: 65%;
+    margin: auto;
+}
+
+.section-2-left{
+    display: inline-block;
+    background-color: #8e7754;
+    width: 47%;
+    margin-right: 65px;
+}
+.section-2-left img{
+    width: 100%;
+}
+
+.section-2-right{
+    width: 47%;
+    display: inline-block;
+    vertical-align: top; 
+    margin-top: 20px;
+
+}
+
+.section-2-right ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.svg-inline--fa{
+    font-size: 20px;
+    color: #8e7754;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.location{
+    /* background-color: tomato; */
+    margin-top: 90px;
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+.location-left{
+    /* background-color: aquamarine; */
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+
+}
+.location-right{
+    background-color: bisque;
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+    margin-left: 60px;
+
+}
+.location-right img{
+    width: 100%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.our-baking{
+    margin-top: 90px;
+    text-align: center;
+    
+}
+.baking-heading{
+    text-align: center;
+    margin: 10px 0px 60px;
+
+}
+.baking-heading h3{
+    margin-bottom: 17px;
+}
+.item{
+    /* background-color: #c0193d; */
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+.item img{
+    width: 90%;
+}
+.clr{
+    clear: both;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.contact{
+    margin-top: 90px;
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+.contact-left{
+
+    float: left;
+    width: 47%;
+    vertical-align: middle;
+    margin-right: 40px;
+
+}
+.contact-left h2{
+    margin-bottom: 25px;
+}
+.contact-left p{
+    margin-bottom: 25px;
+}
+.contact-left ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.contact-right{
+    width: 47%;
+    float: left;
+}
+.contact .svg-inline--fa{
+    background-color: #8e7754;
+    font-size: 15px;
+    color: white;
+    /* vertical-align: middle; */
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.footer{
+    background-color: #403d38;
+    margin-top: 90px;
+    padding: 60px;
+
+}
+
+.about-us{
+    width: 24%;
+    /* background-color: goldenrod; */
+    float: left;
+}
+.footer h4{
+    margin-bottom: 15;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footer .about-us p{
+    margin-bottom: 15;
+
+}
+.why-we-special,
+.opening-hours,
+.contact-details{
+    display: inline-block;
+    width: 22%;
+    float: left;    
+    list-style-type: none;
+    padding-left: 30px;
+}
+.footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+.symbol{
+    font-weight: bold;
+    margin-right: 10px;
+}
+hr{
+    border: 1px solid #686868;
+}
+
+.contact-details ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    background-image: url(../images/contact-details-map.png);
+}
+.contact-details img{
+    width: 100%;
+}
+
+.fa-location-dot,
+.fa-phone,
+.fa-envelope,
+.fa-earth-africa
+{
+    margin: 0;
+    padding-bottom: 15px;
+    background-color: transparent;
+    color: #969696;
+    border: none;
+    font-size: 15px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.copyright{
+    background-color: #353330;
+    padding: 50 0 40px;
+    text-align: center;
+
+}
+.fa-facebook,
+.fa-google-plus-g,
+.fa-linkedin-in,
+.fa-twitter{
+    background-color: #484540;
+    color:#686868;
+
+}
+
+
+.logo-b{
+    margin: 10 0 25;
+
+}
+.copyright p{
+    margin: 5 0 0;
+
+}   
+.social-icons{
+    margin: 15 0 0;
+    padding: 8 0 0;
+}
+
