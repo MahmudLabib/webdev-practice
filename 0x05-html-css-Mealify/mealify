@@ -1,0 +1,126 @@
+/*-- General --*/
+
+
+[body]
+
+font-family: "Ubuntu", serif;
+
+[section-title h2]
+color:#7f7f90
+font-family (stack):Inter, sans-serif
+font-weight:400
+text-decoration:none solid rgb(127, 127, 144)
+text-align:center
+
+[section-title p]
+color:#212529
+font-family:"Amatic SC", sans-serif
+font-size: 50px
+font-weight: 400
+text-decoration: none solid rgb(33, 37, 41)
+text-align: center
+
+[section-title p span]
+color: #ce1212;
+font-family: "Amatic SC", sans-serif;
+font-size: 50px;
+font-weight: 400;
+text-decoration: none solid rgb(206, 18, 18);
+text-align: center;
+
+
+
+h2
+font-family: "Amatic SC", sans-serif;
+
+
+h3 
+font-family: Inter, sans-serif;
+
+[heading] h2
+
+
+[p]
+
+
+
+[a,span]
+
+
+
+<!--==== Navbar start ====-->
+		[header-logo] - a
+			
+				font-family: "Ubuntu", serif;
+				font-size: 30px;
+				color: #212529;
+			
+		[header-links] - a
+
+				color: #000000;
+				font-family: "Ubuntu", serif;
+				font-size: 17px;
+				font-weight:600;
+				text-decoration: none solid rgb(0, 0, 0);
+				text-align: left;
+<!--==== Navbar end ====-->
+
+<!--==== header-area ====-->
+
+		[header-h2] 
+
+				color:#37373f;
+				font-family (stack): "Amatic SC", sans-serif;
+				font-size: 65px;
+				font-weight: 700;
+				text-decoration: none solid rgb(55, 55, 63);
+				text-align: start;
+
+		[header-p]
+
+				color: #4f4f5a;
+				font-family: "Ubuntu", serif;
+				font-size: 16px;
+				line-height: 25.6px;
+				font-weight: 400;
+				text-decoration: none solid rgb(79, 79, 90);
+				text-align: start;
+
+		[header-btn-group] first-btn
+				color: #ffffff;
+				font-family: "Ubuntu", serif;
+				font-size: 15px;
+				font-weight: 400;
+				text-align: start
+
+							seconed-btn
+				color: #ce1212;
+				font-family: "Ubuntu", serif;
+				font-size: 16px;
+				font-weight: 600;
+				text-align: start;
+
+<!--==== header-area end ====-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
