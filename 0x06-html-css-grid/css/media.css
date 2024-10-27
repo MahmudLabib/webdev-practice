@@ -1,0 +1,105 @@
+/* Media */
+
+@media (min-width: 479px) {
+    .grid-container {
+        height: inherit;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas:
+            "b1 b1 b1 b1 b1 b1 b1 b1 b1 b1 b1 b1"
+            "b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2 b2"
+            "b3 b3 b3 b3 b3 b3 b4 b4 b4 b4 b4 b4"
+            "b5 b5 b5 b5 b5 b5 b5 b5 b5 b5 b5 b5"
+            "b6 b6 b6 b6 b6 b6 b8 b8 b8 b8 b8 b8"
+            "b7 b7 b7 b7 b7 b7 b8 b8 b8 b8 b8 b8"
+            "b9 b9 b9 b9 b9 b9 b9 b9 b9 b9 b9 b9"
+            "b10 b10 b10 b10 b10 b10 b10 b10 b10 b10 b10 b10 "
+        ;
+    }
+
+    .heading {
+        font-size: 35px;
+        line-height: 1.4em;
+    }
+
+    .grid-item-2 {
+        flex-direction: row;
+        padding: 0 4% 0;
+
+
+        .item-2-content {
+            width: 32%;
+        }
+
+    }
+
+    .grid-item-5 {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 68px 4% 0;
+
+
+        .item-5-left {
+            max-width: 180px;
+            width: 50%;
+            margin-bottom: 0;
+
+
+            .item-5-img {
+                position: relative;
+                width: 250%;
+                left: -85%;
+            }
+
+            .item-5-img img {
+                margin-top: 20px;
+                max-width: 450px;
+            }
+        }
+
+        .item-5-right {
+            width: 40%;
+            align-self: flex-start;
+        }
+    }
+
+    .grid-item-10 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+        img{
+            position: relative;
+            left: -15%;
+            top: -4%;
+        }
+        h3{
+            position: relative;
+            top: 13px;
+            width: 35%;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+@media (min-width: 991px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas:
+            "b2 b2 b2 b2 b2 b2 b1 b1 b1 b1 b1 b1"
+            "b3 b3 b3 b5 b5 b5 b5 b5 b5 b8 b8 b8"
+            "b4 b4 b4 b7 b7 b7 b7 b7 b7 b8 b8 b8"
+            "b6 b6 b6 b9 b9 b9 b10 b10 b10 b10 b10 b10";
+    }
+
+    .heading {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
