@@ -192,6 +192,7 @@ p{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    
     text-align: start;
     padding: 40px 4% 0;
 
@@ -206,12 +207,12 @@ p{
         font-weight: 400;
     }
     .item-2-img{
-        width: 249px;
+        max-width: 249px;
         /* margin-right: auto; */
         /* margin-left: auto; */
         position: relative;
         left: -4%;
-
+        align-self: flex-end;
     }
     .item-2-img img{
         margin-top: 40px;
@@ -281,6 +282,7 @@ p{
     text-align: start;
     padding: 40px 4% 50px;
     
+    
 
     .item-5-left{
         display: flex;
@@ -288,6 +290,7 @@ p{
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
+        height: 100%;
 
 
         .item-5-content .heading{

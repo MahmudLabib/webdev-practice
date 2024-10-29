@@ -41,6 +41,7 @@
 
 
         .item-5-left {
+            justify-content: space-between;
             max-width: 180px;
             width: 50%;
             margin-bottom: 0;
@@ -91,6 +92,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr 1fr .5fr;
         grid-template-areas:
             "b2 b2 b2 b2 b2 b2 b1 b1 b1 b1 b1 b1"
             "b3 b3 b3 b5 b5 b5 b5 b5 b5 b8 b8 b8"
