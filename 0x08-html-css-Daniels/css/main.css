@@ -88,12 +88,16 @@ img {
         --bs-nav-link-padding-y: 0rem;
         padding: 24px 24px 0 24px;
         font-size: 0.875rem;
-
+        background-color: white;
+        text-align: center;
+        
 
         .nav-link {
+            color: #1C1C1C;
+            padding-bottom: 10px;
             position: relative;
             letter-spacing: 0.4px;
-            --bs-nav-link-color: var(--primary-color);
+            /* --bs-nav-link-color: var(--primary-color); */
             line-height: 1.25rem;
 
 

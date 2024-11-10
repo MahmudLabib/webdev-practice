@@ -21,18 +21,18 @@
 }
 
 /*=====================================
-/*^              HERO                 */
+/*^                                 */
 /*====================================*/
 
 @media (min-width: 768px) {
 
-    
+
 
     .about-section {
         .box-shadow {
             padding: 3rem;
         }
-    
+
     }
 
 
@@ -41,13 +41,13 @@
 
 
 
-@media (min-width: 992px) {}
-
-
-
-
-
-
-
-
-
+@media (min-width: 992px) {
+    .navbar {
+        .navbar-nav {
+            background-color: transparent;
+        }
+        .nav-link {
+            color: white !important ;
+        }
+    }
+}
