@@ -1,0 +1,58 @@
+/*=====================================
+/*^              HERO                 */
+/*====================================*/
+
+@media (min-width: 768px) {
+    .hero {
+        .hero-title {
+            font-size: 4.5rem;
+        }
+        .hero-animation {
+            font-size: 2.5rem;
+        }
+    }
+
+    .about-section {
+        .box-shadow {
+            padding: 3rem;
+        }
+    
+    }
+
+    .section-blog .testimonial-box {
+        p {
+            padding: 0 5rem;
+        }
+    }
+
+
+}
+
+
+
+@media (min-width: 992px) {
+
+    .section-blog .testimonial-box {
+        p {
+            padding: 0 8rem;
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .section-blog .testimonial-box {
+        p {
+            padding: 0 13rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
