@@ -13,5 +13,6 @@ You can view the live demos for each project at the following links:
 - [0x06-html-css-grid](https://mahmudlabib.github.io/webdev-practice/0x06-html-css-grid/)
 - [0x07-html-css-Devfolio](https://mahmudlabib.github.io/webdev-practice/0x07-html-css-Devfolio/)
 - [0x08-html-css-Daniels](https://mahmudlabib.github.io/webdev-practice/0x08-html-css-Daniels/)
+- [0x09-js-quote](https://mahmudlabib.github.io/webdev-practice/0x09-js-quote/)
 
 Feel free to explore the projects and provide feedback!
